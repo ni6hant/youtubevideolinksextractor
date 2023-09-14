@@ -4,12 +4,12 @@ This extracts video links and video names from multiple youtube channel's video 
 # How To:
 Install Python.
 Copy/Download Code and open the code in Visual Studio Code root directory.
-Windows: Copy paste in VSCode Terminal. 
+Windows: Copy paste in VSCode Terminal. If prompted to change environment, select yes.
 ```
-python venv venv
 python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
+
 ```
 
 Change the url in the videos.py file here: Make sure it points to the videos page and not the channel's homepage
