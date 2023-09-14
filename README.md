@@ -1,5 +1,5 @@
 # youtubevideolinksextractor
-This extracts video links and video names for a youtube channel's video page
+This extracts video links and video names from multiple youtube channel's video page.
 
 # How To:
 Install Python.
