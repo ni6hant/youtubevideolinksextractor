@@ -9,6 +9,7 @@ Windows: Copy paste in VSCode Terminal. If prompted to change environment, selec
 python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
+clear
 
 ```
 
