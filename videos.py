@@ -6,12 +6,11 @@ from tqdm import tqdm
 #If your internet speed is best keep it 1, otherwise increase this.
 #This actually changes the time till which scroll happens
 internet_speed = 1
-
 # Define the URL of the YouTube channels' video page
 channels = [
+    'https://www.youtube.com/@ni6hantwork/videos',
     'https://www.youtube.com/@ni6hant/videos',
-    'https://www.youtube.com/@ni6hantarchives/videos',
-    'https://www.youtube.com/@ni6hantgamingindia/videos',
+    'https://www.youtube.com/@ni6hantindia/videos',
     'https://www.youtube.com/@makingtechfriendly/videos',
     'https://www.youtube.com/@makingtechfriendlyindia/videos'
 ]
@@ -37,6 +36,7 @@ for channel in channels:
 
     # Extract the total number of videos and calculate the scroll duration
     total_videos_count = int(total_videos_element.text.replace(',', ''))
+    # scroll_duration = 3
     scroll_duration = internet_speed *total_videos_count / 5
     print(total_videos_count, " : ", scroll_duration)
 
